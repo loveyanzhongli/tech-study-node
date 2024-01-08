@@ -7,11 +7,11 @@ const PUSH_CONFIG = {
    * @description 启用推送
    * @example true 启用推送 false 禁用推送
    */
-  enabled: false,
+  enabled: true,
   /**
    * @description 发送服务消息昵称
    */
-  nick: '管理员',
+  nick: '闫忠利',
   /**
    * @description 发送服务消息来源
    */
@@ -19,6 +19,6 @@ const PUSH_CONFIG = {
   /**
    * @description 管理员的token
    */
-  token: 'xxxxxxxxxxxxxxxxxxxxxxxxxx',
+  token: 'd74c0b9088b74a11b0aba4719fe79baf',
 };
 export default PUSH_CONFIG;

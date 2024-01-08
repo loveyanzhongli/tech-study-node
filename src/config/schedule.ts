@@ -32,9 +32,24 @@ export type Schedule = {
  */
 export const SCHEDULE_CONFIG: Schedule[] = [
   {
-    nick: 'xxx',
-    token: 'xxxxxxxxxxxxxxxxxxxxxxxxxx',
-    cron: '0 0 12 * * ?',
+    // 若 `Push 配置`中 `enabled` 为 true，任务配置的用户 `token` 为必填项
+    /**
+     * @description 用户昵称
+     */
+    nick: '闫忠利',
+    /**
+     * @description 自己或者好友 token  (-)
+     */
+    token: 'd74c0b9088b74a11b0aba4719fe79baf',
+    /**
+     * @description cron 表达式
+     * @example '0 0 12 * * ?' 表示12点, ['0 0 12 * * ?', '0 0 13 * * ?'] 表示十二点和十三点
+     */
+    cron: '0 0 10 * * ?',
+     /**
+     * @description 学习项目配置
+     * @example  [文章选读, 视听学习, 每日答题]
+     */
     taskConfig: [true, true, true],
     refreshCookieInterval: [60, 120],
   },
