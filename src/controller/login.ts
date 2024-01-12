@@ -25,10 +25,10 @@ const filePath = path.join(qrcodePath, 'login.png');
  */
 const handleLogin = async () => {
   // 缓存 cookie 登录
-  const res = await handleLoginByCacheCookie();
-  if (res) {
-    return true;
-  }
+  // const res = await handleLoginByCacheCookie();
+  // if (res) {
+  //   return true;
+  // }
   // 二维码登录
   return await handleLoginByQRCode();
 };

@@ -13,7 +13,7 @@ const STUDY_CONFIG = {
   /**
    * @description 最大登录等待时间
    */
-  loginTimeout: 80000,
+  loginTimeout: 300000,
   /**
    * @description 登录二维码本地存储（开启推送后，自行关闭）
    */

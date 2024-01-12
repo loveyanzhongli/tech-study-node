@@ -187,8 +187,8 @@ const getTodayNews = async () => {
         // 是否存在
         if (item.publishTime.startsWith(currentYear) && item.type === 'tuwen') {
           news[i] = item;
-          i++;
         }
+        i++;
       }
     }
   }
